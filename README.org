@@ -1,0 +1,17 @@
+* Tiny Data Structure
+
+** Dependency:
+
++ String.hpp (cstdlib, cstring, iostream)
++ Vector.hpp (cstdlib, cstring)
+  + Stack.hpp  (Vector.hpp)
++ List.hpp   (cstdlib)
+  + Queue.hpp  (List.hpp)
+  + Dequeue.hpp(List.hpp)
++ Pair.hpp
++ Skiplist.hpp (Vector.hpp)
+  + Set.hpp    (Skiplist.hpp)
+  + MultiSet.hpp (Skiplist, Pair.hpp)
+  + Map.hpp    (Skiplist.hpp, Pair.hpp)
+  + MultiMap.hpp (Skiplist,hpp, Pair.hpp)
+
